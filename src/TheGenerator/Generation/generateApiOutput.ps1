@@ -211,7 +211,7 @@ Else
 	if (!$global:error_occured_in_oas_codegen)
 	{
 		# Generate the Controller 
-		$destFolder = '..\..\src\Web\Api'
+		$destFolder = '..\..\Web\Api'
 		$tempOutputFolder = $tempdir + 'temp_output_controllers'
 		$tempOutputSubFolder = $null
 		$filePattern = '*.cs'
@@ -225,7 +225,7 @@ Else
 
 
 		# Generate the dto's that go with the controllers
-		$destFolder = '..\..\src\Common\Models'
+		$destFolder = '..\..\Common\Models'
 		$tempOutputFolder = $tempdir + 'temp_output_models'
 		$tempOutputSubFolder = $null
 		$filePattern = '*.cs'
