@@ -236,6 +236,11 @@ Else
 		$oasTemplateDir = '..\templates\aspnetcore\controller'
 		$oasOutputProperties = '-Dmodels'
 		generate $destFolder $tempOutputFolder $tempOutputSubFolder $filePattern $renameOldPattern $renameNewPattern $renamePrefix $oasLanguage $oasTemplateDir $oasOutputProperties
+
+
+		# Here you would put your code for your other clients (angular, Vue, Aurelia etc.)
 	}
+
+
 		
 }
