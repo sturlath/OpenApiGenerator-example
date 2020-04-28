@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "src\Web\Web.csproj", "{1B8709A6-9958-4E52-A756-641DF0D71427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGenerator", "TheGenerator\TheGenerator.csproj", "{1997FE4D-CD86-4F22-B757-C40DE8E906C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGenerator", "TheGenerator\TheGenerator.csproj", "{1997FE4D-CD86-4F22-B757-C40DE8E906C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECEBF3E7-819C-4C41-AB6B-B1763FFFFA53}"
 	ProjectSection(SolutionItems) = preProject
-		ReadMe.md = ReadMe.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "src\Common\Common.csproj", "{AE20E651-C5AE-4E9F-B44E-F607258B2C36}"
