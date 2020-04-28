@@ -219,7 +219,7 @@ Else
 		$renameNewPattern = 'Controller.g.cs'
 		$renamePrefix = $null
 		$oasLanguage = 'aspnetcore'
-		$oasTemplateDir = 'templates\aspnetcore\controller'
+		$oasTemplateDir = '..\templates\aspnetcore\controller'
 		$oasOutputProperties = '-Dapis'
 		generate $destFolder $tempOutputFolder $tempOutputSubFolder $filePattern $renameOldPattern $renameNewPattern $renamePrefix $oasLanguage $oasTemplateDir $oasOutputProperties
 
@@ -233,7 +233,7 @@ Else
 		$renameNewPattern = 'g.cs'
 		$renamePrefix = $null
 		$oasLanguage = 'aspnetcore'
-		$oasTemplateDir = 'templates\aspnetcore\controller'
+		$oasTemplateDir = '..\templates\aspnetcore\controller'
 		$oasOutputProperties = '-Dmodels'
 		generate $destFolder $tempOutputFolder $tempOutputSubFolder $filePattern $renameOldPattern $renameNewPattern $renamePrefix $oasLanguage $oasTemplateDir $oasOutputProperties
 	}

@@ -32,3 +32,17 @@ Invoke-WebRequest -OutFile openapi-generator-cli.jar https://repo1.maven.org/mav
 
 What just happened was that your changes in Program.cs where taken and the api.yaml file was updated with the specks.
 Then the PowerShell script took that and used the template file (controller.mustache) to create the dto's and controllers
+
+
+----------------
+
+   Debugging:
+----------------
+
+Sometimes something doesn't work so here we have few tips to help
+
+1. Download a PowerShell tool so you can debug the generateApiOutPut.ps1. I use this https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2017-18561
+2. When generating the files they are moved to a temp location outside of the solution first
+    C:\Users\[you]\AppData\Local\Temp\oas-temp
+    There you find oasoutput.txt with generation errors.
+3. 
