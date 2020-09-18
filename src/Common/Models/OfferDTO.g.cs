@@ -17,6 +17,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 
+//This model is here just for demonstration. 
 
 namespace Org.OpenAPITools.Models
 { 
